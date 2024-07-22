@@ -50,3 +50,7 @@ table {
         }
     }
   }
+
+  .mat-icon{
+    cursor: pointer;
+  }
