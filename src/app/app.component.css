@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+  }
+
+  .mdc-button{
+    min-width: 40%;
+    background: lightyellow !important;
+  }
+
+  .mat-mdc-card-header, .mat-mdc-card-actions{
+    padding: 10px;
+    justify-content: space-evenly;
+  }
+
+  .mat-mdc-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  .main-content{
+    display: flex;
+  }
+
+  @media (max-width: 768px) {
+    .main-content{
+       flex-direction: column;
+    }
+    .data-table{
+        width: auto !important;
+    }
+  }
+
+  .add-form{
+    padding: 20px;
+  }
+
+  .data-table{
+    padding: 20px;
+    width: 100%;
+    mat-card{
+        height: 100%;
+        justify-content: space-around;
+        padding: 15px;
+        mat-form-field{
+            width: 50%;
+        }
+    }
+  }
